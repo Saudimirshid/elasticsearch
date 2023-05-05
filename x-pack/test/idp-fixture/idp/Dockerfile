@@ -1,4 +1,4 @@
-FROM openjdk:11.0.16-jre AS javabase
+FROM openjdk:21-ea-19-jdk-slim AS javabase
 
 ENV JAVA_HOME=/usr/local/openjdk-11
 
